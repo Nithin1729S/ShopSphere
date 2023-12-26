@@ -207,26 +207,7 @@ form.addEventListener('submit', (e) => {
 
 
 
-  let whatsappUrl =
-    "https://wa.me/923350020257?text=" +
-    "_*SHOP SPHERE*_" + "%0a" + "%0a" +
-    "*CUSTOMER DETAILS*" + "%0a" + "%0a" +
-    "*Name* : " + formCustomerName.value + "%0a" +
-    "*Email* : " + formCustomerEmail.value + "%0a" +
-    "*WhatsApp* : " + formCustomerWhatsapp.value + "%0a" +
-    "*Shipping Address* : " + formCustomerAddress.value + "%0a" + "%0a" +
-    "*PRODUCT DETAILS*" + "%0a" + "%0a" +
-    "*Order Number* : " + formCustomerOrderNumber.value + "%0a" +
-    "*Name* : " + formProductName.value + "%0a" +
-    "*Code* : " + formProductCode.value + "%0a" +
-    "*Size* : " + formProductSize.value + "%0a" +
-    "*Color* : " + formProductColor.value + "%0a" +
-    "*Price* : " + `Rs. ${formProductSellingPrice.value}` + "%0a" +
-    "*Quantity* : " + formProductQuantity.value + "%0a" +
-    "*Total Amount* : " + `Rs. ${formProductTotalAmount.value}` + "%0a" + "%0a" +
-    "*Thank You For Choosing SHOP SPHERE, Where Elegance Meets Style.*"
-
-  window.open(whatsappUrl, "_blank");
+  
 
 
 
